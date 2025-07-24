@@ -1,8 +1,6 @@
 var contentTable = document.getElementById('list');
 contentTable.setAttribute('class', 'table table-hover table-transparent-bg');
 
-var listItems = [].slice.call(document.querySelectorAll('#list tbody tr'));
-
 var currentDirectory = jQuery(location).attr('protocol') + "//" + jQuery(location).attr('host') + "/";
 jQuery.each(jQuery('#nginx-fancyindex-directory').text().split('/'), function(id, directory) {
   if (id == 0) {
