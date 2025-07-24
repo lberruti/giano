@@ -9,6 +9,11 @@ body {
 body > .container {
     padding: 20px 15px 0;
 }
+
+.table > :not(caption) > * > * {
+    padding: .75rem;
+}
+
 .container .text-muted {
     margin: 20px 0;
 }
