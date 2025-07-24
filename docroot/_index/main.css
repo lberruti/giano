@@ -12,3 +12,7 @@ body > .container {
 .container .text-muted {
     margin: 20px 0;
 }
+
+.table-transparent-bg {
+    --bs-table-bg: transparent;
+}
