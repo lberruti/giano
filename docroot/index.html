@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Description" content="Giano - An OpenSource Mirror" />
+    <meta name="verify-v1" content="n0XGCSdalVXgNEWGLEW7/ThldMFhCFrbrUD35Zf+Omo=" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="p-5 mb-4 bg-light">
+			<div class="container-fluid py-3">
+				<h1 class="display-2">University of Genoa</h1>
+			</div>
+		</div>
+
+		<div class="container">
+			<h1 class="display-6">Mirrors that we host</h1>
+			<div class="row">
+
+				<div class="col-md-4">
+					<h2><a class="link-underline link-underline-opacity-0" href="debian/">ftp.debian.org</a></h2>
+					<p><a class="link-underline link-underline-opacity-0" href="https://www.gnu.org/">GNU</a>/<a class="link-underline link-underline-opacity-0" href="https://www.debian.org/">Debian</a>, all versions (<a class="link-underline link-underline-opacity-0" href="debian/dists/stable/">stable</a>, <a class="link-underline link-underline-opacity-0" href="debian/dists/testing/">testing</a>, <a class="link-underline link-underline-opacity-0" href="debian/dists/unstable/">unstable</a>) and for amd64, armel, armhf and i386 architectures</p>
+				</div>
+
+				<div class="col-md-4">
+					<h2><a class="link-underline link-underline-opacity-0" href="debian-cd/">cdimage.debian.org</a></h2>
+					<p><a class="link-underline link-underline-opacity-0" href="https://www.gnu.org/">GNU</a>/<a class="link-underline link-underline-opacity-0" href="https://www.debian.org/">Debian</a>, some CD-ROM images of the <a class="link-underline link-underline-opacity-0" href="debian-cd/current/">stable</a> release</p>
+				</div>
+
+				<div class="col-md-4">
+					<h2><a class="link-underline link-underline-opacity-0" href="ubuntu/">archive.ubuntu.com</a></h2>
+					<p><a class="link-underline link-underline-opacity-0" href="https://www.ubuntu-it.org/">Ubuntu</a>, all <a class="link-underline link-underline-opacity-0" href="ubuntu/dists/">versions</a> and for amd64 and i386 architectures</p>
+				</div>
+
+			</div>
+
+			<h1 class="display-6">Instructions</h1>
+
+      <p>All mirrors are also browsable via HTTP protocol.</p>
+			<p>When using Debian configure your /etc/apt/sources.list as it follows:</p>
+			<pre>
+deb http://giano.com.dist.unige.it/debian/ stable main contrib non-free
+deb-src http://giano.com.dist.unige.it/debian/ stable main contrib non-free
+			</pre>
+
+			<h1 class="display-6">Statistics</h1>
+			<div class="row">
+				<div class="col-md-6">
+					<a class="link-underline link-underline-opacity-0" href="webalizer/http/">HTTP access</a>
+				</div>
+				<div class="col-md-6">
+					<a class="link-underline link-underline-opacity-0" href="webalizer/ftp/">FTP access</a>
+				</div>
+			</div>
+			<hr>
+			<footer>
+				<p>This site is maintained, owned, ruled by Sandro Zappatore and Luca Berruti. Contact: &lt;mirror-debian AT cnit DOT it&gt; </p>
+			</footer>
+		</div>
+
+	</body>
+</html>

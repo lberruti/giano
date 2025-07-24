@@ -1,0 +1,16 @@
+services:
+  nginx:
+    build: .
+    container_name: giano-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./docroot:/var/www
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    restart: unless-stopped
+    networks:
+      - giano-network
+
+networks:
+  giano-network:
+    driver: bridge

@@ -1,0 +1,17 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 50px;
+    background-image: url('/_index/bg_pattern.png');
+    background-repeat: repeat;
+}
+body> .container {
+    padding: 20px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
