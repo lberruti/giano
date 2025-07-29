@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /debian/
+Disallow: /debian-cd/
+Disallow: /ubuntu/
