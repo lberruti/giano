@@ -39,10 +39,13 @@
 			<h1 class="display-6">Instructions</h1>
 
       <p>All mirrors are also browsable via HTTP protocol.</p>
-			<p>When using Debian configure your /etc/apt/sources.list as it follows:</p>
+			<p>When using Debian configure your /etc/apt/sources.list.d/debian.sources as it follows:</p>
 			<pre>
-deb http://giano.com.dist.unige.it/debian/ stable main contrib non-free
-deb-src http://giano.com.dist.unige.it/debian/ stable main contrib non-free
+Types: deb
+URIs: http://giano.com.dist.unige.it/debian
+Suites: stable stable-updates stable-backports
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
 			</pre>
 
 			<h1 class="display-6">Statistics</h1>
