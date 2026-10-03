@@ -1,4 +1,4 @@
-FROM debian:12
+FROM debian:13
 
 # Install build dependencies and git
 RUN apt-get update && apt-get install -y nginx-light libnginx-mod-http-fancyindex
