@@ -1,4 +1,6 @@
 User-agent: *
+Allow: /debian/project/trace/
+Allow: /ubuntu/project/trace/
 Disallow: /debian/
 Disallow: /debian-cd/
 Disallow: /ubuntu/
